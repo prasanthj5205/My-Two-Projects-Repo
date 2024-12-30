@@ -8,6 +8,6 @@ public class OAuthController {
 
     @GetMapping("/greet")
     public String greetMessage(){
-        return "Hello Spring OAuth Client updated again";
+        return "Hello Spring OAuth Client updated again in IDE";
     }
 }
