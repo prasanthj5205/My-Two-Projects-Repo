@@ -28,7 +28,7 @@ public class ThirdPartyIntegrationService {
     }
 
     public HttpHeaders getHeaders() {
-        String sample="sample";
+        String sample="sample in new branch";
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
