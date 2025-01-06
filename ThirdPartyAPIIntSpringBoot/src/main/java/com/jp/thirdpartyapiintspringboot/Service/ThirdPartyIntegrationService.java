@@ -28,7 +28,7 @@ public class ThirdPartyIntegrationService {
     }
 
     public HttpHeaders getHeaders() {
-        String sample = "Sample";
+        String sample = "Sample updated";
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
